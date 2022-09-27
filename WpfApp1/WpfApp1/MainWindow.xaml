@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Турагентство" Height="450" Width="800" Icon="resources/icon.ico">
+        Title="Турагентство" Height="450" Width="800" Icon="resources/logo.png">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="75"/>
@@ -22,7 +22,7 @@
 
         <Frame Grid.Row="1" Name="MainFrame" NavigationUIVisibility="Hidden"
                ContentRendered="MainFrame_ContentRendered"></Frame>
-        <Button Content="Back" Name="BtnBack" FontSize="20"
+        <Button Content="Назад" Name="BtnBack" FontSize="20"
                 HorizontalAlignment="Right" Click="BtnBack_Click"></Button>
     </Grid>
 </Window>
